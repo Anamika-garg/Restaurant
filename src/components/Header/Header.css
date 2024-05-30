@@ -1,0 +1,48 @@
+
+nav , ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)); */
+    background: black;
+    width: 100vw;
+    height: 80px;
+    position: fixed;
+    z-index: 2;
+}
+ul li ,a{
+    padding: 10px;
+    list-style-type: none;
+    /* color: black; */
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1.1em;
+    margin: 10px;
+    transition: background-color 0.4s ease;
+    cursor: pointer;
+}
+
+nav ul li#logo{
+    position: absolute;
+    left: 20px;
+}
+.right{
+    position: absolute;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-right: 41px;
+}
+.right .signlogin{
+    margin: 0px;
+}
+
+li a:hover{
+    /* background-color: black; */
+    color: black;
+    background: white;
+    border-radius: 5px;
+}

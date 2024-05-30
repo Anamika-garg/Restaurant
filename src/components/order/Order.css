@@ -1,0 +1,107 @@
+.orderContainer{
+    min-height: 100vh;
+    width: 100vw;
+    /* background-color: rgba(178, 89, 89, 0.516); */
+    /* background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.5)); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.7em;
+}
+.mainHeading{
+    margin-top: 20px;
+}
+.goldenLine{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.goldenLine::after{
+    content: '';
+    top: 10px;
+    display: flex;
+    position: relative;
+    background-color: goldenrod;
+    height: 4px;
+    width: 200px;
+    justify-self: center;
+}
+.All-Items{
+    margin-top: 30px;
+    width: 100vw;
+    min-height: 100vh;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.orderItems{
+    display: flex;
+    min-height: 400px;
+    width: 100vw;
+    margin-top: 20px;
+    /* background-color: green; */
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.items{
+    /* background-color: red; */
+    min-height: 300px;
+    width: 100vw;
+    /* color: white; */
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.4); */
+    margin: 90px 0px;
+}
+.item-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+    margin: 20px 0px;
+    /* background-color: rgb(143, 110, 110); */
+    width: 400px;
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.6);
+    transition: box-shadow 0.2s ease-in;
+    /* background-color: pink; */
+}
+.item-div:hover{
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.3);
+}
+.dishInfo{
+    margin-left: 10px;
+    display: flex;
+    /* background-color: blue; */
+    /* align-items: center; */
+    flex-direction: column;
+    width: 180px;
+}
+.item-div p{
+    font-size: 0.7em;
+}
+.orderNow{
+    /* display: flex; */
+    height: 55px;
+    width: 117px;
+    border: none;
+    background: red;
+    color: white;
+    margin-top: 10px;
+    /* align-self: center; */
+    font-size: 0.7em;
+    transition: background , color 0.3s ease;
+}
+.orderNow:hover{
+    /* border: 2px solid black; */
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , red ;
+    color: white;
+}
