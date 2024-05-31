@@ -1,5 +1,6 @@
 import React from 'react';
-import dish from './dish.webp'
+import dish from './dish.webp';
+import OrderItemTemp from './OrderItemTemp';
 import './Order.css'
 const Order = () => {
     return (
@@ -7,122 +8,69 @@ const Order = () => {
             <div className="orderContainer">
                 <h1 className="mainHeading goldenLine">Order Now</h1>
                 <div className='All-Items'>
+
                     <div className="todaySpecial orderItems">
-                        <h2 className='goldenLine'>Today's Special</h2>
-                        <div className="items">
-                            <div className="item-div">
-                                <img src={dish} alt="" />
-                                <div className="dishInfo">
-                                    <h4>#DishName</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur.</p>
-                                    <button className="orderNow">Order Now</button>
-                                </div>
-                            </div>
-                            <div className="item-div">
-                                <img src={dish} alt="" />
-                                <div className="dishInfo">
-                                    <h4>#DishName</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur.</p>
-                                    <button className="orderNow">Order Now</button>
-                                </div>
-                            </div>
-                            <div className="item-div">
-                                <img src={dish} alt="" />
-                                <div className="dishInfo">
-                                    <h4>#DishName</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur.</p>
-                                    <button className="orderNow">Order Now</button>
-                                </div>
-                            </div>
-                        </div>
+
+                        <OrderItemTemp mydata = {[{
+                            title : "Dosa",
+                            description : "Crispy, golden dosa sizzling on the griddle"
+                        },
+                        {
+                            title : "Idli",
+                            description : "South Indian comfort food that never fails to satisfy"
+                        },
+                        {
+                            title : "Chilli-Paneer",
+                            description : "Indo-Chinese fusion dish that delights the taste buds with every bite."
+                        }]} Heading = "Today's Special"/>
+
                     </div>
+
+
                     <div className="TopPicks orderItems">
-                        <h2 className='goldenLine'>Top Picks For You</h2>
-                        <div className="items">
-                            <div className="item-div">
-                                <img src={dish} alt="" />
-                                <div className="dishInfo">
-                                    <h4>#DishName</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur.</p>
-                                    <button className="orderNow">Order Now</button>
-                                </div>
-                            </div>
-                            <div className="item-div">
-                                <img src={dish} alt="" />
-                                <div className="dishInfo">
-                                    <h4>#DishName</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur.</p>
-                                    <button className="orderNow">Order Now</button>
-                                </div>
-                            </div>
-                            <div className="item-div">
-                                <img src={dish} alt="" />
-                                <div className="dishInfo">
-                                    <h4>#DishName</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur.</p>
-                                    <button className="orderNow">Order Now</button>
-                                </div>
-                            </div>
-                        </div>
+                        <OrderItemTemp mydata = {[{
+                            title : "Dosa",
+                            description : "Crispy, golden dosa sizzling on the griddle"
+                        },
+                        {
+                            title : "Idli",
+                            description : "South Indian comfort food that never fails to satisfy"
+                        },
+                        {
+                            title : "Chilli-Paneer",
+                            description : "Indo-Chinese fusion dish that delights the taste buds with every bite."
+                        }]} Heading = "Top Picks For You"/>
                     </div>
+
                     <div className="FrequentlyOrdered orderItems">
-                        <h2 className='goldenLine'>Frequently Ordered</h2>
-                        <div className="items">
-                            <div className="item-div">
-                                <img src={dish} alt="" />
-                                <div className="dishInfo">
-                                    <h4>#DishName</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur.</p>
-                                    <button className="orderNow">Order Now</button>
-                                </div>
-                            </div>
-                            <div className="item-div">
-                                <img src={dish} alt="" />
-                                <div className="dishInfo">
-                                    <h4>#DishName</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur.</p>
-                                    <button className="orderNow">Order Now</button>
-                                </div>
-                            </div>
-                            <div className="item-div">
-                                <img src={dish} alt="" />
-                                <div className="dishInfo">
-                                    <h4>#DishName</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur.</p>
-                                    <button className="orderNow">Order Now</button>
-                                </div>
-                            </div>
-                        </div>
+                        
+                        <OrderItemTemp mydata = {[{
+                            title : "Dosa",
+                            description : "Crispy, golden dosa sizzling on the griddle"
+                        },
+                        {
+                            title : "Idli",
+                            description : "South Indian comfort food that never fails to satisfy"
+                        },
+                        {
+                            title : "Chilli-Paneer",
+                            description : "Indo-Chinese fusion dish that delights the taste buds with every bite."
+                        }]} Heading = "Frequently Ordered"/>
                     </div>
 
                     <div className="PreviousOrders orderItems">
-                        <h2 className='goldenLine'>Previous Orders</h2>
-                        <div className="items">
-                            <div className="item-div">
-                                <img src={dish} alt="" />
-                                <div className="dishInfo">
-                                    <h4>#DishName</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur.</p>
-                                    <button className="orderNow">Order Now</button>
-                                </div>
-                            </div>
-                            <div className="item-div">
-                                <img src={dish} alt="" />
-                                <div className="dishInfo">
-                                    <h4>#DishName</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur.</p>
-                                    <button className="orderNow">Order Now</button>
-                                </div>
-                            </div>
-                            <div className="item-div">
-                                <img src={dish} alt="" />
-                                <div className="dishInfo">
-                                    <h4>#DishName</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur.</p>
-                                    <button className="orderNow">Order Now</button>
-                                </div>
-                            </div>
-                        </div>
+                        <OrderItemTemp mydata = {[{
+                            title : "Dosa",
+                            description : "Crispy, golden dosa sizzling on the griddle"
+                        },
+                        {
+                            title : "Idli",
+                            description : "South Indian comfort food that never fails to satisfy"
+                        },
+                        {
+                            title : "Chilli-Paneer",
+                            description : "Indo-Chinese fusion dish that delights the taste buds with every bite."
+                        }]} Heading = "Previous Orders"/>
                     </div>
                 </div>
             </div>
@@ -130,4 +78,4 @@ const Order = () => {
     )
 }
 
-export default Order
+export default Order;
