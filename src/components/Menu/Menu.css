@@ -16,13 +16,21 @@
 }
 .mainMenu{
     margin-top: 10px;
-    width: 87vw;
+    width: 86vw;
     min-height: 100vh;
     /* background-color: pink; */
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    /* background-color: pink; */
+    width: 190px;
 }
 .dishes{    
     display: flex;
@@ -35,7 +43,8 @@
 }
 .dishes img{
     width: 170px;
-    height: auto;
+    height: 130px;
+    /* height: auto; */
     border-radius: 35px;
 }
 .dishes .text{

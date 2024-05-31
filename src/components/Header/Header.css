@@ -16,6 +16,7 @@ ul li ,a{
     /* color: black; */
     color: white;
     text-decoration: none;
+    border-radius: 7px;
     text-transform: capitalize;
     font-size: 1.1em;
     margin: 10px;
@@ -44,5 +45,4 @@ li a:hover{
     /* background-color: black; */
     color: black;
     background: white;
-    border-radius: 5px;
 }
