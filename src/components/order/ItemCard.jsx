@@ -1,6 +1,7 @@
 import React from 'react'
 
 const ItemCard = ({img , title , description}) => {
+    // console.log(JSON.parse(img))
     return (
         <div>
             <div className="item-div">

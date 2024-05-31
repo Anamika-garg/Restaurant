@@ -62,6 +62,10 @@
     /* box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.4); */
     margin: 90px 0px;
 }
+.items img{
+    width: 170px;
+    height: 130px;
+}
 .item-div{
     display: flex;
     align-items: center;

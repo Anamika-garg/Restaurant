@@ -1,6 +1,7 @@
 import React from 'react'
 
 const DishesTemp = ({img , title , description , price}) => {
+  // console.log(img)
   return (
     <div>
       <div className="dishes">

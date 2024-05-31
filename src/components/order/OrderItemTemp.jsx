@@ -12,7 +12,7 @@ const OrderItemTemp = ({ Heading, mydata }) => {
                 {
                     mydata.map(element => {
                         return (
-                            <ItemCard key={element.title} img={dish} title={element.title} description={element.description} />
+                            <ItemCard key={element.title} img={element.img} title={element.title} description={element.description} />
                         )
                 })
                 }

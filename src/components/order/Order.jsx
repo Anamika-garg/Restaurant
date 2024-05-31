@@ -1,5 +1,10 @@
 import React from 'react';
-import dish from './dish.webp';
+import dosa from './orderimg/dosa.avif';
+import frenchfries from './orderimg/frenchfries.avif';
+import springRolls from './orderimg/springRolls.avif';
+import Pizza from './orderimg/Pizza.avif';
+import ChilliPaneer from './orderimg/ChilliPaneer.avif';
+import Idli from './orderimg/Idli.avif';
 import OrderItemTemp from './OrderItemTemp';
 import './Order.css'
 const Order = () => {
@@ -11,18 +16,22 @@ const Order = () => {
 
                     <div className="todaySpecial orderItems">
 
-                        <OrderItemTemp mydata = {[{
+                        <OrderItemTemp Heading = "Today's Special"
+                         mydata = {[{
                             title : "Dosa",
+                            img : dosa,
                             description : "Crispy, golden dosa sizzling on the griddle"
                         },
                         {
                             title : "Idli",
+                            img : Idli,
                             description : "South Indian comfort food that never fails to satisfy"
                         },
                         {
                             title : "Chilli-Paneer",
+                            img : ChilliPaneer,
                             description : "Indo-Chinese fusion dish that delights the taste buds with every bite."
-                        }]} Heading = "Today's Special"/>
+                        }]}/>
 
                     </div>
 
@@ -30,14 +39,17 @@ const Order = () => {
                     <div className="TopPicks orderItems">
                         <OrderItemTemp mydata = {[{
                             title : "Dosa",
+                            img : dosa,
                             description : "Crispy, golden dosa sizzling on the griddle"
                         },
                         {
                             title : "Idli",
+                            img : Idli,
                             description : "South Indian comfort food that never fails to satisfy"
                         },
                         {
                             title : "Chilli-Paneer",
+                            img : ChilliPaneer,
                             description : "Indo-Chinese fusion dish that delights the taste buds with every bite."
                         }]} Heading = "Top Picks For You"/>
                     </div>
@@ -46,14 +58,17 @@ const Order = () => {
                         
                         <OrderItemTemp mydata = {[{
                             title : "Dosa",
+                            img : dosa,
                             description : "Crispy, golden dosa sizzling on the griddle"
                         },
                         {
                             title : "Idli",
+                            img : Idli,
                             description : "South Indian comfort food that never fails to satisfy"
                         },
                         {
                             title : "Chilli-Paneer",
+                            img : ChilliPaneer,
                             description : "Indo-Chinese fusion dish that delights the taste buds with every bite."
                         }]} Heading = "Frequently Ordered"/>
                     </div>
@@ -61,14 +76,17 @@ const Order = () => {
                     <div className="PreviousOrders orderItems">
                         <OrderItemTemp mydata = {[{
                             title : "Dosa",
+                            img : dosa,
                             description : "Crispy, golden dosa sizzling on the griddle"
                         },
                         {
                             title : "Idli",
+                            img : Idli,
                             description : "South Indian comfort food that never fails to satisfy"
                         },
                         {
                             title : "Chilli-Paneer",
+                            img : ChilliPaneer,
                             description : "Indo-Chinese fusion dish that delights the taste buds with every bite."
                         }]} Heading = "Previous Orders"/>
                     </div>
