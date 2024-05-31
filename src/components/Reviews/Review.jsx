@@ -8,12 +8,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Review = () => {
   return (
     <div id="reviews">
-        <div className="reviewContainer">
-          <h2>Our Customer's Say</h2>
-          <h3>Testimomials</h3>
-          
-          <div className="reviewSec">
-            <div className = "forAnimationDiv">
+      <div className="reviewContainer">
+        <h2>Our Customer's Say</h2>
+        <h3>Testimomials</h3>
+
+        <div className="reviewSec">
+          <div className="forAnimationDiv">
             <ReviewTemp
               text={
                 '"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque ea asperiores non quam "'
@@ -29,7 +29,7 @@ const Review = () => {
               name={"Kristania Chauhan"}
               img={person2}
             />
-            
+
             <ReviewTemp
               text={
                 '"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque ea asperiores non quam "'
@@ -37,46 +37,7 @@ const Review = () => {
               name={"Robert Thomson"}
               img={person}
             />
-            <ReviewTemp
-              text={
-                '"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque ea asperiores non quam "'
-              }
-              name={"Robert Thomson"}
-              img={person}
-            />
-
-            <ReviewTemp
-              text={
-                '"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque ea asperiores non quam "'
-              }
-              name={"Kristania Chauhan"}
-              img={person2}
-            />
-            
-            <ReviewTemp
-              text={
-                '"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque ea asperiores non quam "'
-              }
-              name={"Robert Thomson"}
-              img={person}
-            />
-            <ReviewTemp
-              text={
-                '"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque ea asperiores non quam "'
-              }
-              name={"Robert Thomson"}
-              img={person}
-            />
-
-            
-            </div>
-
-
-
-
-
-            {/* <div className = "forAnimationDiv">
-            <ReviewTemp
+            {/* <ReviewTemp
               text={
                 '"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque ea asperiores non quam "'
               }
@@ -91,43 +52,82 @@ const Review = () => {
               name={"Kristania Chauhan"}
               img={person2}
             />
-            
-            <ReviewTemp
-              text={
-                '"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque ea asperiores non quam "'
-              }
-              name={"Robert Thomson"}
-              img={person}
-            />
-            </div> */}
-            {/* <div className = "forAnimationDiv">
-            <ReviewTemp
-              text={
-                '"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque ea asperiores non quam "'
-              }
-              name={"Robert Thomson"}
-              img={person}
-            />
 
             <ReviewTemp
               text={
                 '"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque ea asperiores non quam "'
               }
-              name={"Kristania Chauhan"}
-              img={person2}
+              name={"Robert Thomson"}
+              img={person}
             />
-            
             <ReviewTemp
               text={
                 '"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque ea asperiores non quam "'
               }
               name={"Robert Thomson"}
               img={person}
-            />
-            </div> */}
+            /> */}
+
+
           </div>
+
+
+
+
+
+          {/* <div className = "forAnimationDiv">
+            <ReviewTemp
+              text={
+                '"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque ea asperiores non quam "'
+              }
+              name={"Robert Thomson"}
+              img={person}
+            />
+
+            <ReviewTemp
+              text={
+                '"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque ea asperiores non quam "'
+              }
+              name={"Kristania Chauhan"}
+              img={person2}
+            />
+            
+            <ReviewTemp
+              text={
+                '"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque ea asperiores non quam "'
+              }
+              name={"Robert Thomson"}
+              img={person}
+            />
+            </div> */}
+          {/* <div className = "forAnimationDiv">
+            <ReviewTemp
+              text={
+                '"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque ea asperiores non quam "'
+              }
+              name={"Robert Thomson"}
+              img={person}
+            />
+
+            <ReviewTemp
+              text={
+                '"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque ea asperiores non quam "'
+              }
+              name={"Kristania Chauhan"}
+              img={person2}
+            />
+            
+            <ReviewTemp
+              text={
+                '"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque ea asperiores non quam "'
+              }
+              name={"Robert Thomson"}
+              img={person}
+            />
+            </div> */}
         </div>
       </div>
+    </div>
   );
 };
 

@@ -28,6 +28,22 @@ nav ul li#logo{
     position: absolute;
     left: 20px;
 }
+.afterSmallScreen{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: black;
+    width: 300px;
+    justify-content: center;
+    justify-self: flex-end;
+    position: fixed;
+    right: 0px;
+}
+.afterSmallScreen .div li{
+    font-size: 1.3em;
+    padding: 10px;
+}
 .right{
     position: absolute;
     right: 0px;
@@ -35,14 +51,41 @@ nav ul li#logo{
     align-items: center;
     justify-content: center;
     padding: 10px;
-    margin-right: 41px;
+    margin-right: 0px;
 }
 .right .signlogin{
     margin: 0px;
+}
+#menubar{
+    visibility: hidden;
+    position: fixed;
+    width: 100vw;
+    height: 80px;
+    z-index: 4;
+}
+.hideIt{
+    visibility: hidden;
+    z-index: 2;
 }
 
 li a:hover{
     /* background-color: black; */
     color: black;
     background: white;
+}
+#menubar img{
+    height: 32px;
+    width: 37px;
+}
+@media only screen and (max-width: 800px) {
+    #navbar{
+        /* visibility: hidden; */
+        display: none;
+    }
+    #menubar{
+        visibility: visible;
+    }
+    html{
+        overflow-x: hidden;
+    }
 }
