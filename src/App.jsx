@@ -4,7 +4,7 @@ import Menu from './components/Menu/Menu';
 import Order from './components/order/Order';
 import Review from './components/Reviews/Review';
 import Footer from './components/Footer/Footer';
-
+import SignIn from './components/UserSignIn/SignIn';
 
 
 
@@ -19,6 +19,7 @@ function App() {
       <Order/>
       <hr/>
       <Review/>
+      <SignIn></SignIn>
       <Footer/>
     </div>
   );

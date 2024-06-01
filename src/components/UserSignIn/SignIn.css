@@ -1,0 +1,68 @@
+.signInContainer{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: white; */
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) , url('bgImage.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.outer-box{
+    height: 470px;
+    width: 400px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 6px;
+    color: black;
+}
+.outer-box .heading{
+    font-size: 1.6em;
+}
+.input{
+    height: 30px;
+    width: 200px;
+    background-color: white;
+    border: 1px solid brown;
+    outline: none;
+    padding:7px;
+}
+.inputWrappingDiv{
+    display: flex;
+    flex-direction: column;
+}
+.checkbox{
+    width: 13px;
+    height: 20px;
+    margin-right: 2px;
+}
+.showPass{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 141px;
+    padding: 3px;
+}
+.submitBtn{
+    height: 47px;
+    width: 229px;
+    font-size: 1.0em;
+}
+.submit-div{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+p .signuplink{
+    text-align: center;
+    font-size: 0.9em;
+    text-transform: capitalize;
+    color: rgb(234, 108, 29);
+}

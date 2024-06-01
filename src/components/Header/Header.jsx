@@ -22,6 +22,7 @@ const Header = () => {
     setToggleMenu(!toggleMenu);
     afterSmallScreem.current.style.visibility = 'hidden';
   }
+
   return (
     <header>
       <nav id='navbar'>
@@ -47,8 +48,8 @@ const Header = () => {
           <div className='div'>
             <li><a href="#home" onClick={hideAfterClick}>Home </a></li>
             <li><a href="#menu" onClick={hideAfterClick}> Dishes </a></li>
-            <li><a href="#orderNow" onClick={hideAfterClick}>Our Team</a></li>
-            <li><a href="#signlogin" onClick={hideAfterClick}> Sign In </a></li>
+            <li><a href="#orderNow" onClick={hideAfterClick}>Order Now</a></li>
+            <li ><a href="#signIn" onClick={hideAfterClick}> Sign In </a></li>
           </div>
         </div>
     </header>

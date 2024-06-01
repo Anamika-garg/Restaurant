@@ -44,8 +44,8 @@
     margin: 30px 0px;
     /* min-height: 24vh;
     width: 26vw; */
-    min-height: 350px;
-    width: 400px;
+    min-height: 202px;
+    width: 381px;
     border: 3px solid rgb(207, 160, 40);
     border-radius: 20px;
     background-color: white;
@@ -53,6 +53,7 @@
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
+    padding: 2px;
     justify-content: center;
     /* overflow: hidden; */
 }
