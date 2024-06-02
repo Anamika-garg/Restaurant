@@ -8,6 +8,7 @@ import SignIn from './components/UserSignIn/SignIn';
 
 
 
+
 import './App.css'
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
       <hr/>
       <Review/>
       <SignIn></SignIn>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 }

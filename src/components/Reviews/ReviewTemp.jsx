@@ -1,8 +1,13 @@
 import React from 'react'
 
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+
 const ReviewTemp = ({text , img , name}) => {
+  
   return (
-    <div>
     <div className="review-div">
         <div className="review">
             <div className="review-text">
@@ -15,8 +20,7 @@ const ReviewTemp = ({text , img , name}) => {
           <h3>{name}</h3>
           </div>
         </div>
-    </div>      
-    </div>
+    </div>    
   )
 }
 

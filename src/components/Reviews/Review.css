@@ -19,18 +19,18 @@
     color: rgb(234, 173, 20);
 }
 .reviewSec{
-    min-height: 400px;
-    width: 100vw;
+    min-height: 500px;
+    width: 96vw;
     /* background-color: red; */
     display: flex;
     align-items: center;
-    /* flex-wrap: wrap; */
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
     flex-direction: row;
 }
 .review-div{
     min-height: 350px;
-    width: 500px;
+    min-width: 422px;
     /* background-color: pink; */
     display: flex;
     justify-content: center;
@@ -45,7 +45,7 @@
     /* min-height: 24vh;
     width: 26vw; */
     min-height: 202px;
-    width: 381px;
+    width: 361px;
     border: 3px solid rgb(207, 160, 40);
     border-radius: 20px;
     background-color: white;
@@ -76,12 +76,13 @@
 .reviewer h3{
     color: black;
 }
-.forAnimationDiv{
+.forCarausals{
     /* background-color: red; */
     display: flex;
-    /* margin: 30px 0px; */
+    margin: 30px 0px;
     position: relative;
-    min-height: 400px;
+    min-height: 500px;
+    width: 90vw;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;

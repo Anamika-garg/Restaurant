@@ -26,7 +26,7 @@ const Header = () => {
   return (
     <header>
       <nav id='navbar'>
-        <ul>
+        <ul className='ul'>
           <li id="logo">Logo</li>
           <li><a href="#home">Home</a></li>
           <li><a href="#menu">Dishes</a></li>
