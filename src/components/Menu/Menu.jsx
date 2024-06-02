@@ -1,5 +1,5 @@
 import React from 'react';
-import './Menu.css';
+// import './Menu.css';
 import DishesTemp from './DishesTemp';
 import dosa from './img/dosa.avif';
 import frenchfries from './img/frenchfries.avif';

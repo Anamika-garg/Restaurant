@@ -1,6 +1,6 @@
 import React from 'react';
 import { useRef , useState } from 'react';
-import './Header.css';
+// import './Header.css';
 import bar from './icon.png'
 const Header = () => {
 

@@ -1,0 +1,501 @@
+
+nav , .ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)); */
+    background: black;
+    width: 100vw;
+    height: 80px;
+    position: fixed;
+    z-index: 2;
+}
+.ul li ,a{
+    padding: 10px;
+    list-style-type: none;
+    /* color: black; */
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+    text-transform: capitalize;
+    font-size: 1.1em;
+    margin: 10px;
+    transition: background-color 0.4s ease;
+    cursor: pointer;
+}
+
+nav .ul li#logo{
+    position: absolute;
+    left: 20px;
+}
+.afterSmallScreen{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: black;
+    width: 300px;
+    justify-content: center;
+    justify-self: flex-end;
+    position: fixed;
+    right: 0px;
+}
+.afterSmallScreen .div li{
+    font-size: 1.3em;
+    padding: 10px;
+}
+.right{
+    position: absolute;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-right: 0px;
+}
+.right .signlogin{
+    margin: 0px;
+}
+#menubar{
+    visibility: hidden;
+    position: fixed;
+    width: 100vw;
+    height: 80px;
+    z-index: 4;
+}
+.hideIt{
+    visibility: hidden;
+    z-index: 2;
+}
+
+li a:hover{
+    /* background-color: black; */
+    color: black;
+    background: white;
+}
+#menubar img{
+    height: 32px;
+    width: 37px;
+}
+@media only screen and (max-width: 800px) {
+    #navbar{
+        /* visibility: hidden; */
+        display: none;
+    }
+    #menubar{
+        visibility: visible;
+    }
+    html{
+        overflow-x: hidden;
+    }
+}
+
+.container{
+    /* margin-top: 20px; */
+    min-height: 120vh;
+    width: 100vw;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('HomeImage.avif') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+.mainText{
+    font-size: 3.3rem;
+    text-align: center;
+}
+.menubtn{
+    font-size: 1.4rem;
+    height: 70px;
+    width: 200px;
+    background-color: #fff;
+    margin-top: 30px;
+    transition: background 0.2s ease;
+    border-radius: 5px;
+}
+.menubtn:hover{
+    background: linear-gradient(rgba(0,0,0,0.7) , rgba(0,0,0,0.6));
+    color: white;
+    border: none;
+}
+
+.menuContainer{
+    margin-top: 50px;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: pink; */
+}
+.menuHead{
+    font-size: 3rem;
+    /* margin-top: 40px; */
+    color: darkred;
+    text-align: center;
+}
+.mainMenu{
+    margin-top: 10px;
+    width: 100vw;
+    min-height: 100vh;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    /* background-color: pink; */
+    width: 190px;
+}
+.dishes{    
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    min-height: 263px;
+    width: 420px;
+    margin: 10px 0px;
+    /* border: 4px solid black; */
+    /* background-color: red; */
+}
+.dishes img{
+    width: 170px;
+    height: 130px;
+    /* height: auto; */
+    border-radius: 35px;
+}
+.dishes .text{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    /* justify-content: center; */
+    margin: 20px;
+}
+.text h2{
+    font-size: 2.3rem;
+}
+.price{
+    font-size: 1.7rem;
+    color: rgba(60, 52, 6, 0.66);
+}
+.orderContainer{
+    min-height: 100vh;
+    width: 100vw;
+    /* background-color: rgba(178, 89, 89, 0.516); */
+    /* background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.5)); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.7em;
+}
+.mainHeading{
+    margin-top: 20px;
+}
+.goldenLine{
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-end; */
+    flex-direction: column;
+}
+.goldenLine::after{
+    content: '';
+    top: 10px;
+    display: flex;
+    position: relative;
+    background-color: goldenrod;
+    height: 4px;
+    width: 200px;
+    justify-self: center;
+}
+.All-Items{
+    margin-top: 30px;
+    width: 100vw;
+    min-height: 100vh;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.orderItems{
+    display: flex;
+    min-height: 400px;
+    width: 100vw;
+    margin-top: 20px;
+    /* background-color: green; */
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.items{
+    /* background-color: red; */
+    min-height: 300px;
+    width: 100vw;
+    /* color: white; */
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.4); */
+    margin: 90px 0px;
+}
+.items img{
+    width: 170px;
+    height: 130px;
+}
+.item-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+    margin: 20px 0px;
+    /* background-color: rgb(143, 110, 110); */
+    width: 400px;
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.6);
+    transition: box-shadow 0.2s ease-in;
+    /* background-color: pink; */
+}
+.item-div:hover{
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.3);
+}
+.dishInfo{
+    margin-left: 10px;
+    display: flex;
+    /* background-color: blue; */
+    /* align-items: center; */
+    flex-direction: column;
+    width: 180px;
+}
+.item-div p{
+    font-size: 0.7em;
+}
+.orderNow{
+    /* display: flex; */
+    height: 40px;
+    width: 117px;
+    border: none;
+    background: red;
+    color: white;
+    margin-top: 10px;
+    /* align-self: center; */
+    font-size: 0.7em;
+    transition: background , color 0.3s ease;
+}
+.orderNow:hover{
+    /* border: 2px solid black; */
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , red ;
+    color: white;
+}
+
+.reviewContainer{
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    /* background-color: pink; */
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* border: 2px solid red; */
+}
+.reviewContainer h2{
+    font-size: 2.6em;
+    margin-top: 50px;
+    text-align: center;
+}
+.reviewContainer h3{
+    margin: 20px 0px;
+    color: rgb(234, 173, 20);
+}
+.reviewSec{
+    min-height: 500px;
+    width: 96vw;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+.review-div{
+    min-height: 350px;
+    min-width: 422px;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.3);
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px 20px;
+}
+.review{
+    margin: 30px 0px;
+    /* min-height: 24vh;
+    width: 26vw; */
+    min-height: 202px;
+    width: 361px;
+    border: 3px solid rgb(207, 160, 40);
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 2px;
+    justify-content: center;
+    /* overflow: hidden; */
+}
+.reviewer{
+    min-height: 15vh;
+    width: 18vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: black;
+    /* overflow: hidden; */
+    /* background-color: red; */
+}
+.person-detail{
+    align-self: flex-start;
+    flex-wrap: wrap;
+}
+.reviewer h3{
+    color: black;
+}
+.forCarausals{
+    /* background-color: red; */
+    display: flex;
+    margin: 30px 0px;
+    position: relative;
+    min-height: 500px;
+    width: 90vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    min-width: 100vw;
+    transition: left 0.2s ease;
+    overflow-x: hidden;
+}
+
+.review-div:hover{
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.1);
+}
+
+/* @media (prefers-reduced-motion: no-preference){
+    .forAnimationDiv{
+        animation: animateCar 18s ease-in-out 1s infinite alternate;
+    }
+} */
+@keyframes animateCar {
+    0%{
+        left: 0px;
+    }
+    20%{
+        left: -600px;
+    }
+    40%{
+        left: -1200px;
+    }
+    60%{
+        left: -1800px;
+    }
+    80%{
+        left: -2400px;
+    }
+    100%{
+        left: -2800px;
+    }
+}
+.signInContainer{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: white; */
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) , url('bgImage.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.outer-box{
+    height: 470px;
+    width: 400px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 6px;
+    color: black;
+}
+.outer-box .heading{
+    font-size: 1.6em;
+}
+.input{
+    height: 30px;
+    width: 200px;
+    background-color: white;
+    border: 1px solid brown;
+    outline: none;
+    padding:7px;
+}
+.inputWrappingDiv{
+    display: flex;
+    flex-direction: column;
+}
+.checkbox{
+    width: 13px;
+    height: 20px;
+    margin-right: 2px;
+}
+.showPass{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 141px;
+    padding: 3px;
+}
+.submitBtn{
+    height: 47px;
+    width: 229px;
+    font-size: 1.0em;
+}
+.submit-div{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+p .signuplink{
+    text-align: center;
+    font-size: 0.9em;
+    text-transform: capitalize;
+    color: rgb(234, 108, 29);
+}
+.footer{
+    width: 100vw;
+    height: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}

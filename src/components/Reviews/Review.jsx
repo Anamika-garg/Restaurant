@@ -2,7 +2,7 @@ import React from "react";
 import person from "./person.webp";
 import person2 from "./person2.webp";
 import ReviewTemp from "./ReviewTemp";
-import "./Review.css";
+// import "./Review.css";
 
 const Review = () => {
  

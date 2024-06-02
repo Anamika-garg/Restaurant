@@ -6,7 +6,7 @@ import Pizza from './orderimg/Pizza.avif';
 import ChilliPaneer from './orderimg/ChilliPaneer.avif';
 import Idli from './orderimg/Idli.avif';
 import OrderItemTemp from './OrderItemTemp';
-import './Order.css'
+// import './Order.css'
 const Order = () => {
     return (
         <div id='orderNow'>

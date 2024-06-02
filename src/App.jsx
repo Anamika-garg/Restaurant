@@ -5,6 +5,7 @@ import Order from './components/order/Order';
 import Review from './components/Reviews/Review';
 import Footer from './components/Footer/Footer';
 import SignIn from './components/UserSignIn/SignIn';
+import './index.css'
 
 
 
@@ -21,7 +22,7 @@ function App() {
       <hr/>
       <Review/>
       <SignIn></SignIn>
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   );
 }
