@@ -88,6 +88,10 @@ li a:hover{
     html{
         overflow-x: hidden;
     }
+    .dishes{
+        width: 450px;
+        margin-left: 10px;
+    }
 }
 
 .container{
@@ -161,8 +165,8 @@ li a:hover{
     align-items: center;
     flex-direction: row;
     min-height: 263px;
-    width: 500px;
-    margin: 10px 0px;
+    width: 480px;
+    margin-inline: auto;
     /* border: 4px solid black; */
     /* background-color: red; */
 }
