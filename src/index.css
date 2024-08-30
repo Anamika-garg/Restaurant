@@ -297,7 +297,7 @@ li a:hover{
     /* border: 2px solid red; */
 }
 .reviewContainer h2{
-    font-size: 2.6em;
+    font-size: 2.3em;
     margin-top: 50px;
     text-align: center;
 }
@@ -318,6 +318,8 @@ li a:hover{
 .review-div{
     min-height: 350px;
     min-width: 422px;
+    /* min-height: 328px;
+    min-width: 379px; */
     /* background-color: pink; */
     display: flex;
     justify-content: center;
@@ -333,6 +335,8 @@ li a:hover{
     width: 26vw; */
     min-height: 202px;
     width: 361px;
+    /* min-height: 173px;
+    width: 345px; */
     border: 3px solid rgb(207, 160, 40);
     border-radius: 20px;
     background-color: white;
@@ -504,5 +508,17 @@ p .signuplink{
     .dishes{
         width: 370px;
         margin-left: 10px;
+    }
+    .details{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .review-div{
+        min-height: 328px;
+        max-width: 379px;
+    }
+    .review{
+        min-height: 173px;
+        width: 345px;
     }
 }
