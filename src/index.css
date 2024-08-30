@@ -77,22 +77,6 @@ li a:hover{
     height: 32px;
     width: 37px;
 }
-@media only screen and (max-width: 800px) {
-    #navbar{
-        /* visibility: hidden; */
-        display: none;
-    }
-    #menubar{
-        visibility: visible;
-    }
-    html{
-        overflow-x: hidden;
-    }
-    .dishes{
-        width: 370px;
-        margin-left: 10px;
-    }
-}
 
 .container{
     /* margin-top: 20px; */
@@ -502,4 +486,23 @@ p .signuplink{
     align-items: center;
     justify-content: center;
     position: fixed;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    #navbar{
+        /* visibility: hidden; */
+        display: none;
+    }
+    #menubar{
+        visibility: visible;
+    }
+    html{
+        overflow-x: hidden;
+    }
+    .dishes{
+        width: 370px;
+        margin-left: 10px;
+    }
 }
